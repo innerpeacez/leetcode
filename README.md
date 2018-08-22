@@ -4,15 +4,9 @@
 
 LeetCode刷题，记录自己刷题过程
 
-#### 博客地址
+#### [博客地址](https://blog.csdn.net/zhwyj1019)
 
-[点击这里](https://blog.csdn.net/zhwyj1019)
-
-
-#### CSDN专栏地址
-
-[点击这里](https://blog.csdn.net/column/details/25294.html)
-
+#### [CSDN专栏地址](https://blog.csdn.net/column/details/25294.html)
 
 #### 目录
 ##### 一、初级算法题
