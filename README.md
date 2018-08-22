@@ -21,6 +21,11 @@ LeetCode刷题，记录自己刷题过程
     
 1.从排序数组中删除重复项     
 
+| 类名  | 博客地址|
+| ---------- | -----------|
+| [RemoveDuplicates](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/array/RemoveDuplicates.java)   | [从排序数组中删除重复项](https://blog.csdn.net/zhwyj1019/article/details/81190700)   |
+| 表格单元   | 表格单元   |
+
 类名：[RemoveDuplicates](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/array/RemoveDuplicates.java)
 博客：[从排序数组中删除重复项](https://blog.csdn.net/zhwyj1019/article/details/81190700)
     
