@@ -92,5 +92,5 @@ https://blog.csdn.net/column/details/25294.html
 
 4.有效的字母异位词
 
-类名：com.zhw.leetcode.string.IsAnagram
+类名：[IsAnagram](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/string/IsAnagram.java)
 博客：https://blog.csdn.net/zhwyj1019/article/details/81947779
