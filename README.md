@@ -39,4 +39,5 @@ LeetCode刷题，记录自己刷题过程
 | 4 | 有效的字母异位词 | [IsAnagram](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/string/IsAnagram.java)   | [有效的字母异位词](https://blog.csdn.net/zhwyj1019/article/details/81947779)   |
 | 5 | 验证回文字符串 | [IsPalindrome](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/string/IsPalindrome.java)   | [验证回文字符串](https://blog.csdn.net/zhwyj1019/article/details/81982039)   |
 | 6 | 字符串转整数（atoi） | [MyAtoi](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/string/MyAtoi.java)   | [字符串转整数（atoi）](https://blog.csdn.net/zhwyj1019/article/details/82146705)   |
+| 7 | 实现strStr() | [StrStr](https://github.com/innerpeacez/leetcode/blob/master/primary/src/main/java/com/zhw/leetcode/string/StrStr.java)   | [实现strStr()](https://blog.csdn.net/zhwyj1019/article/details/82179976)   |
 
