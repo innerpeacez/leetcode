@@ -61,10 +61,11 @@ public class Rotate {
             return;
         }
 
-        k = k % nums.length;
-        reverse(nums, 0, nums.length - k - 1);
-        reverse(nums, nums.length - k, nums.length - 1);
-        reverse(nums, 0, nums.length - 1);
+        k = k % nums.length;//当k小于nums.length时，余数为k本身；相等时k为0
+        //假设nums=[1,2,3,4,5,6,7] k=3
+        reverse(nums, 0, nums.length - k - 1);//反转（不包含后面k位元素） nums=[4,3,2,1,5,6,7]
+        reverse(nums, nums.length - k, nums.length - 1);//反转后面k位元素  nums=[4,3,2,1,7,6,5]
+        reverse(nums, 0, nums.length - 1);//所有的数再来一次反转  nums=[5,6,7,1,2,3,4]
 
         for (int num : nums) {
             System.out.print(num + ",");
