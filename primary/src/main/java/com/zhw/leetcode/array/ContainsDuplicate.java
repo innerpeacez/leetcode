@@ -1,6 +1,8 @@
 package com.zhw.leetcode.array;
 
 
+import java.util.Arrays;
+
 /**
  * @author: zhaihongwei
  * @date: 2018/7/30 17:15
@@ -29,14 +31,16 @@ public class ContainsDuplicate {
                 }
             }
         }*/
-        /*Arrays.sort(nums);
+        Arrays.sort(nums);
         for (int i = 1 ; i < nums.length ; i++) {
             if (nums[i - 1] == nums[i])
                 return true;
         }
-        return false;*/
+        return false;
 
-        for (int i = 1; i < nums.length; i++) {
+
+        // 方法有问题，leetcode 测试用例覆盖不够
+        /*for (int i = 1; i < nums.length; i++) {
             for (int j = i - 1; j >= 0; j--) {
                 if (nums[i] > nums[j]) {
                     break;
@@ -46,11 +50,11 @@ public class ContainsDuplicate {
             }
 
         }
-        return false;
+        return false;*/
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4, 5, 4, 3, 2, 4, 2};
+        int[] nums = {5,1,2,5};
         System.out.println(containsDuplicate(nums));
     }
 }
